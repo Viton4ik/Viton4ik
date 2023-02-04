@@ -10,7 +10,9 @@ Here is my sphere:
 <a href="#" target="_blank" rel="noreferrer"> <img src="https://github.com/Viton4ik/Info_page_HTML/blob/master/css.png" alt="css" width="50x" height="50x"/></h3> 
 <a href="#" target="_blank" rel="noreferrer"> <img src="https://fuzeservers.ru/wp-content/uploads/9/3/a/93a14a817aba78c219b6421198863989.png" alt="JS" width="50x" height="50x"/></h3> 
 
-[![trophy](https://github-profile-trophy.vercel.app/?username=ryo-ma)](https://github.com/ryo-ma/github-profile-trophy)
+## _Statistics_
+
+[![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=DenverCoder1)](https://git.io/streak-stats)
 
 ## _Contacts_
 

@@ -1,7 +1,7 @@
 ### Hi there 👋
 - ⚡ I'm Victor ⚡                       
 
-![Badge](https://visitor-counter-badge.vercel.app/api/asheeeshh/visitor-counter-badge/) ![Badge](https://visitor-counter-badge.vercel.app/api/asheeeshh/visitor-counter-badge?label=Hits&color=fc7695&labelColor=95abdb)
+![Badge](https://visitor-counter-badge.vercel.app/api/viton4ik/visitor-counter-badge/) 
 
 ## _Looking for myself in coding!_
 
@@ -14,8 +14,8 @@ Here is my sphere:
 
 ## _Statistics_
 
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=anuraghazra&layout=compact)](https://github.com/anuraghazra/github-readme-stats)
-[![codewars](https://www.codewars.com/users/username/badges/small)](https://www.codewars.com/users/username) 
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=viton4ik&layout=compact)](https://github.com/anuraghazra/github-readme-stats)
+[![codewars](https://www.codewars.com/users/viton4ik/badges/small)](https://www.codewars.com/users/username) 
 
 
 ## _Contacts_

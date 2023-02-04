@@ -1,5 +1,6 @@
 ### Hi there 👋
 - ⚡ I'm Victor ⚡
+<a href="https://www.djangoproject.com/" target="_blank" rel="noreferrer"> <img src="https://cdn.worldvectorlogo.com/logos/django.svg" alt="django" width="40" height="20"/></h3> 
 
 <!--
 **Viton4ik/Viton4ik** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.

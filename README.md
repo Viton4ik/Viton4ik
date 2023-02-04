@@ -15,7 +15,9 @@ Here is my sphere:
 ## _Statistics_
 
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=viton4ik&layout=compact)](https://github.com/anuraghazra/github-readme-stats)
-[![codewars](https://www.codewars.com/users/viton4ik/badges/micro)](https://www.codewars.com/users/viton4ik) 
+
+
+![](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=daniilshat&theme=solarized_dark)
 
 
 ## _Contacts_

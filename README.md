@@ -1,5 +1,5 @@
 ### Hi there 👋
-- ⚡ I'm Victor ⚡
+- ⚡ I'm Victor ⚡                       ![](https://komarev.com/ghpvc/?username=your-github-username)
 
 ## _Looking for myself in coding!_
 

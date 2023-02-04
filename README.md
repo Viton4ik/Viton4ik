@@ -1,5 +1,5 @@
 ### Hi there 👋
-- ⚡ I'm Victor ⚡                       
+- ⚡ I'm Victor ⚡                       [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=viton4ik&layout=compact&theme=solarized_dark)](https://github.com/anuraghazra/github-readme-stats)
 
 ![Badge](https://visitor-counter-badge.vercel.app/api/viton4ik/visitor-counter-badge/) 
 
@@ -14,12 +14,10 @@ Here is my sphere:
 
 ## _Statistics_
 
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=viton4ik&layout=compact&theme=solarized_dark)](https://github.com/anuraghazra/github-readme-stats)
 
+![](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=viton4ik&theme=solarized_dark)
 ![](https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=viton4ik&theme=solarized_dark)
 ![](https://github-profile-summary-cards.vercel.app/api/cards/stats?username=viton4ik&theme=solarized_dark)
-
-![](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=viton4ik)
 
 
 ## _Contacts_

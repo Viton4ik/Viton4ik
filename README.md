@@ -10,10 +10,11 @@ Here is my sphere:
 <a href="#" target="_blank" rel="noreferrer"> <img src="https://github.com/Viton4ik/Info_page_HTML/blob/master/html.jpeg" alt="html" width="50x" height="50x"/></h3> 
 <a href="#" target="_blank" rel="noreferrer"> <img src="https://github.com/Viton4ik/Info_page_HTML/blob/master/css.png" alt="css" width="50x" height="50x"/></h3> 
 <a href="#" target="_blank" rel="noreferrer"> <img src="https://fuzeservers.ru/wp-content/uploads/9/3/a/93a14a817aba78c219b6421198863989.png" alt="JS" width="50x" height="50x"/></h3> 
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=viton4ik&layout=compact)](https://github.com/anuraghazra/github-readme-stats)
 
 ## _Statistics_
 
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=viton4ik&layout=compact&color=dark)](https://github.com/anuraghazra/github-readme-stats)
+
 ![](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=viton4ik&theme=solarized_dark)
 ![](https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=viton4ik&theme=solarized_dark)
 ![](https://github-profile-summary-cards.vercel.app/api/cards/stats?username=viton4ik&theme=solarized_dark)

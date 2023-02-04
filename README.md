@@ -13,12 +13,14 @@ Here is my sphere:
 
 ## _Statistics_
 
-
 ![](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=viton4ik&theme=solarized_dark)
 ![](https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=viton4ik&theme=solarized_dark)
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=viton4ik&layout=compact&theme=solarized_dark)](https://github.com/anuraghazra/github-readme-stats)
 ![](https://github-profile-summary-cards.vercel.app/api/cards/stats?username=viton4ik&theme=solarized_dark)
 
+## _Quote of the day_
+
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=viton4ik&layout=compact)](https://github.com/anuraghazra/github-readme-stats)
+[![Readme Quotes](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=dark)](https://github.com/piyushsuthar/github-readme-quotes)
 
 ## _Contacts_
 

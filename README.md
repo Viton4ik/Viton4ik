@@ -14,6 +14,12 @@ Here is my sphere:
 |      Contacts   |
 | ------ | ------ |
 | Telegram | [https://t.me/Viton4ik][PlDb] |
+| Dropbox | [plugins/dropbox/README.md][PlDb] |
+| GitHub | [plugins/github/README.md][PlGh] |
+| Google Drive | [plugins/googledrive/README.md][PlGd] |
+| OneDrive | [plugins/onedrive/README.md][PlOd] |
+| Medium | [plugins/medium/README.md][PlMe] |
+| Google Analytics | [plugins/googleanalytics/README.md][PlGa] |
 
 <!--
 **Viton4ik/Viton4ik** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.

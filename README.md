@@ -12,7 +12,7 @@ Here is my sphere:
 
 ## Contacts
 
-|      Contacts   |
+| Plugin | README |
 | ------ | ------ |
 | Telegram | [https://t.me/Viton4ik][PlDb] |
 | Dropbox | [plugins/dropbox/README.md][PlDb] |

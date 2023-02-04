@@ -4,7 +4,7 @@
 ## Looking for myself in coding!
 
 Here is my sphere:
-> <a href="https://www.djangoproject.com/" target="_blank" rel="noreferrer"> <img src="https://github.com/Viton4ik/Info_page_HTML/blob/master/python.jpg" alt="django" width="50x" height="50x"/></h3> 
+> <a href="https://www.djangoproject.com/" target="_blank" rel="noreferrer"> <img src="https://github.com/Viton4ik/Info_page_HTML/blob/master/python.jpg" alt="django" width="50x" height="50x"/></h3> <a href="https://www.python.org/" target="_blank" rel="noreferrer"> <img src="https://github.com/Viton4ik/Info_page_HTML/blob/master/django.png" alt="django" width="50x" height="50x"/></h3> 
 > 
 
 

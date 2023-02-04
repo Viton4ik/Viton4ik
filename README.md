@@ -19,7 +19,7 @@ Here is my sphere:
 ![](https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=viton4ik&theme=solarized_dark)
 ![](https://github-profile-summary-cards.vercel.app/api/cards/stats?username=viton4ik&theme=solarized_dark)
 
-![](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=viton4ik&theme=solarized_dark)
+![](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=viton4ik&theme=white)
 
 
 ## _Contacts_

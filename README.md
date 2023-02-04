@@ -1,7 +1,7 @@
 ### Hi there 👋
 - ⚡ I'm Victor ⚡                       
 
-![Badge](https://visitor-counter-badge.vercel.app/api/asheeeshh/visitor-counter-badge/)
+![Badge](https://visitor-counter-badge.vercel.app/api/asheeeshh/visitor-counter-badge/) ![Badge](https://visitor-counter-badge.vercel.app/api/asheeeshh/visitor-counter-badge?label=Hits&color=fc7695&labelColor=95abdb)
 
 ## _Looking for myself in coding!_
 

@@ -10,7 +10,9 @@ Here is my sphere:
 <a href="#" target="_blank" rel="noreferrer"> <img src="https://github.com/Viton4ik/Info_page_HTML/blob/master/css.png" alt="css" width="50x" height="50x"/></h3> 
 <a href="#" target="_blank" rel="noreferrer"> <img src="https://fuzeservers.ru/wp-content/uploads/9/3/a/93a14a817aba78c219b6421198863989.png" alt="JS" width="50x" height="50x"/></h3> 
 > 
-
+|      Contacts   |
+| ------ | ------ |
+| Telegram | [https://t.me/Viton4ik][PlDb] |
 
 <!--
 **Viton4ik/Viton4ik** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.

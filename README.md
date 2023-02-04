@@ -1,5 +1,7 @@
 ### Hi there 👋
-- ⚡ I'm Victor ⚡                       ![](https://komarev.com/ghpvc/?username=your-github-username)
+- ⚡ I'm Victor ⚡                       
+
+![Badge](https://visitor-counter-badge.vercel.app/api/asheeeshh/visitor-counter-badge/)
 
 ## _Looking for myself in coding!_
 

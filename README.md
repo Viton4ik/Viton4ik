@@ -29,7 +29,7 @@ Here is my scope:
 > <a href="https://t.me/Viton4ik" title ="@Victor"><img src="https://github.com/Viton4ik/Info_page_HTML/blob/master/telegram.png" alt="@Victor" width="47x" height="47x"></a> 
 <a href="mailto:viton4ik@gmail.com" title ="viton4ik@gmail.com"><img src="https://raw.githubusercontent.com/Viton4ik/Info_page_HTML/master/mail.webp" alt="viton4ik@gmail.com" width="47x" height="47x"></a>
 -->
-> <a href="https://t.me/Viton4ik" title ="@Victor"><img src="https://img.shields.io/badge/-@Victor-%2314354c.svg?style=flat&amp;logo=telegram&amp;logoColor=white" style="max-width: 100%;" height="30x"></a>
+> <a href="https://t.me/Viton4ik" title ="Victor"><img src="https://img.shields.io/badge/-@Viton4ik-%2314354c.svg?style=flat&amp;logo=telegram&amp;logoColor=white" style="max-width: 100%;" height="30x"></a>
 <a href="mailto:viton4ik@gmail.com" title ="viton4ik@gmail.com"><img src="https://img.shields.io/badge/-viton4ik@gmail.com-%2314354c.svg?style=flat&amp;logo=gmail&amp;logoColor=red" style="max-width: 100%;" height="30x"></a>
 
 <!--

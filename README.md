@@ -29,9 +29,9 @@ Here is my scope:
 > <a href="https://t.me/Viton4ik" title ="@Victor"><img src="https://github.com/Viton4ik/Info_page_HTML/blob/master/telegram.png" alt="@Victor" width="47x" height="47x"></a> 
 <a href="mailto:viton4ik@gmail.com" title ="viton4ik@gmail.com"><img src="https://raw.githubusercontent.com/Viton4ik/Info_page_HTML/master/mail.webp" alt="viton4ik@gmail.com" width="47x" height="47x"></a>
 -->
-> <a href="https://t.me/Viton4ik" target="_blank" title ="Victor"><img src="https://img.shields.io/badge/-@Viton4ik-%2314354c.svg?style=flat&amp;logo=telegram&amp;logoColor=#4285F4" style="max-width: 100%;" height="30x"></a>
-<a href="mailto:viton4ik@gmail.com" target="_blank" title ="viton4ik@gmail.com"><img src="https://img.shields.io/badge/-viton4ik@gmail.com-%2314354c.svg?style=flat&amp;logo=gmail&amp;logoColor=red" style="max-width: 100%;" height="30x"></a>
-<a href="https://viton4ik.github.io/portfolio/" target="_blank" title ="portfolio"><img src="https://img.shields.io/badge/-My personal page-%2314354c.svg?style=flat&amp;logo=vultr&amp;logoColor=blue" style="max-width: 100%;" height="30x"></a>
+> <a href="https://t.me/Viton4ik" title ="Victor" target="_blank" ><img src="https://img.shields.io/badge/-@Viton4ik-%2314354c.svg?style=flat&amp;logo=telegram&amp;logoColor=#4285F4" style="max-width: 100%;" height="30x"></a>
+<a href="mailto:viton4ik@gmail.com" title ="viton4ik@gmail.com"><img src="https://img.shields.io/badge/-viton4ik@gmail.com-%2314354c.svg?style=flat&amp;logo=gmail&amp;logoColor=red" style="max-width: 100%;" height="30x"></a>
+<a href="https://viton4ik.github.io/portfolio/" title ="portfolio" target="_blank"><img src="https://img.shields.io/badge/-My personal page-%2314354c.svg?style=flat&amp;logo=vultr&amp;logoColor=blue" style="max-width: 100%;" height="30x"></a>
 
 <!--
 **Viton4ik/Viton4ik** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.

@@ -1,7 +1,5 @@
 ### Hi there 👋
-- ⚡ Greetings to all ⚡          
-             
-![](https://komarev.com/ghpvc/?username=viton4ik&color=blue )
+⚡ Greetings to all ⚡   
 
 ## _Looking for myself in coding!_
 
@@ -15,11 +13,14 @@ Here is my scope:
 
 > [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=viton4ik&layout=compact)](https://github.com/anuraghazra/github-readme-stats)
 
+> ![](https://komarev.com/ghpvc/?username=viton4ik&color=blue )
+
 ## _Statistics_
 
 ![](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=viton4ik&theme=solarized_dark)
 ![](https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=viton4ik&theme=solarized_dark)
 ![](https://github-profile-summary-cards.vercel.app/api/cards/stats?username=viton4ik&theme=solarized_dark)
+
 
 ## _Quote of the day_
 

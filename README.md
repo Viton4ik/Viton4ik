@@ -18,6 +18,7 @@ Here is my scope:
 ## _Useful resources_
 
 <a href="https://www.npmjs.com/package" target="_blank" title="npm"> <img src="https://img.shields.io/static/v1?label=npm&message=package&color=red"/>
+<a href="https://shields.io/" target="_blank" title="shields.io"> <img src="https://img.shields.io/badge/shields-io-brightgreen"/>
 <!-- <img src="https://img.shields.io/static/v1?label=1&message=Run servers&color=9cf"/> -->
 
 ## _Statistics_

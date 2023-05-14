@@ -12,6 +12,7 @@ Here is my scope:
 <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer" title="JS"> <img src="https://fuzeservers.ru/wp-content/uploads/9/3/a/93a14a817aba78c219b6421198863989.png" alt="JS" width="50x" height="50x"/></h3> 
 <a href="https://react.dev/" target="_blank" rel="noreferrer" title="React"> <img src="https://stickerboom.ru/files/2016/01/18/3456x2714-300x300.png" alt="React" width="50x" height="50x"/></h3> 
 <a href="https://webpack.js.org/" target="_blank" rel="noreferrer" title="Webpack"> <img src="https://cdn.worldvectorlogo.com/logos/webpack-icon.svg" alt="Webpack" width="50x" height="50x"/></h3> 
+<a href="https://www.typescriptlang.org/" target="_blank" rel="noreferrer" title="TypeScript"> <img src="https://desano.ru/uploads/catalog/1427/NS-10437-1.jpg" alt="TypeScript" width="50x" height="50x"/></h3> 
 
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=viton4ik&layout=compact)](https://github.com/anuraghazra/github-readme-stats)
 

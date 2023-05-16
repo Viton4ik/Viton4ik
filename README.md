@@ -22,7 +22,7 @@ Here is my scope:
 <a href="https://shields.io/" target="_blank" title="shields.io"> <img src="https://img.shields.io/badge/shields-io-brightgreen"/>
 <a href="https://react-bootstrap.github.io/components/alerts" target="_blank" title="react-bootstrap"> <img src="https://img.shields.io/badge/react-bootstrap-blue"/>
 <a href="https://flexbox.help/" target="_blank" title="flexbox-help"> <img src="https://img.shields.io/badge/flexbox-help-9cf"/>
-<!-- <img src="https://img.shields.io/static/v1?label=1&message=Run servers&color=9cf"/> -->
+<a href="https://www.w3schools.com/html/html5_geolocation.asp" target="_blank" title="w3schools"> <img src="https://img.shields.io/badge/w3-schools-success"/>
 
 ## _Statistics_
 

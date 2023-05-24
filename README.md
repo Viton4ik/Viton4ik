@@ -23,6 +23,8 @@ Here is my scope:
 <a href="https://react-bootstrap.github.io/components/alerts" target="_blank" title="react-bootstrap"> <img src="https://img.shields.io/badge/react-bootstrap-blue"/>
 <a href="https://flexbox.help/" target="_blank" title="flexbox-help"> <img src="https://img.shields.io/badge/flexbox-help-9cf"/>
 <a href="https://www.w3schools.com/html/html5_geolocation.asp" target="_blank" title="w3schools"> <img src="https://img.shields.io/badge/w3-schools-success"/>
+<a href="https://legacy.reactjs.org/docs/events.html#generic-events" target="_blank" title="generic-events"> <img src="https://img.shields.io/badge/SyntheticEvent-React-informational"/>
+  
 
 ## _Statistics_
 

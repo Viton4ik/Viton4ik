@@ -14,7 +14,7 @@ Here is my scope:
 <a href="https://webpack.js.org/" target="_blank" rel="noreferrer" title="Webpack"> <img src="https://cdn.worldvectorlogo.com/logos/webpack-icon.svg" alt="Webpack" width="50x" height="50x"/></h3> 
 <a href="https://www.typescriptlang.org/" target="_blank" rel="noreferrer" title="TypeScript"> <img src="https://desano.ru/uploads/catalog/1427/NS-10437-1.jpg" alt="TypeScript" width="50x" height="50x"/></h3> 
 
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=viton4ik&layout=compact)](https://github.com/anuraghazra/github-readme-stats)
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=anuraghazra&layout=compact)](https://github.com/anuraghazra/github-readme-stats)
 
 ## _Useful resources_
 

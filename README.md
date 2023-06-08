@@ -25,7 +25,7 @@ Here is my scope:
 <a href="https://www.w3schools.com/html/html5_geolocation.asp" target="_blank" title="w3schools"> <img src="https://img.shields.io/badge/w3-schools-success"/>
 <a href="https://legacy.reactjs.org/docs/events.html#generic-events" target="_blank" title="generic-events"> <img src="https://img.shields.io/badge/SyntheticEvent-React-informational"/>
 <a href="https://create-react-app.dev/docs/getting-started/" target="_blank" title="create-react-app"> <img src="https://img.shields.io/badge/create--react--app-doc-yellow"/>
-  
+<a href="https://github.com/SkillfactoryCoding/react/tree/main/packages/react-devtools" target="_blank" title="react-devtools"> <img src="https://img.shields.io/badge/react-devtools-lightblue"/>
 
 ## _Statistics_
 

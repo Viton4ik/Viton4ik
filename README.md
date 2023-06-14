@@ -26,6 +26,8 @@ Here is my scope:
 <a href="https://legacy.reactjs.org/docs/events.html#generic-events" target="_blank" title="generic-events"> <img src="https://img.shields.io/badge/SyntheticEvent-React-informational"/>
 <a href="https://create-react-app.dev/docs/getting-started/" target="_blank" title="create-react-app"> <img src="https://img.shields.io/badge/create--react--app-doc-yellow"/>
 <a href="https://github.com/SkillfactoryCoding/react/tree/main/packages/react-devtools" target="_blank" title="react-devtools"> <img src="https://img.shields.io/badge/react-devtools-lightblue"/>
+<a href="https://www.cypress.io/" target="_blank" title="cypress"> <img src="https://img.shields.io/badge/cypress.io-testApp-green"/>
+<a href="https://jestjs.io/ru/docs/api" target="_blank" title="Jest"> <img src="https://img.shields.io/badge/jest-testApp-white"/>
 
 ## _Statistics_
 

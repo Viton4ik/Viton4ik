@@ -29,6 +29,8 @@ Here is my scope:
 <a href="https://www.cypress.io/" target="_blank" title="cypress"> <img src="https://img.shields.io/badge/cypress.io-testApp-green"/>
 <a href="https://jestjs.io/ru/docs/api" target="_blank" title="Jest"> <img src="https://img.shields.io/badge/jest-testApp-white"/>
 <a href="https://ru.vuejs.org/" target="_blank" title="Vue"> <img src="https://img.shields.io/badge/Vue.js-ru-success"/>
+<a href="https://redux.js.org/" target="_blank" title="Redux"> <img src="https://img.shields.io/badge/Redux.js-org-blueviolet"/>
+<a href="https://getbootstrap.com/" target="_blank" title="Bootstrap"> <img src="https://img.shields.io/badge/Bootstrap-site-9cf"/>
 
 ## _Statistics_
 

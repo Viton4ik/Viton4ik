@@ -31,6 +31,8 @@ Here is my scope:
 <a href="https://ru.vuejs.org/" target="_blank" title="Vue"> <img src="https://img.shields.io/badge/Vue.js-ru-success"/>
 <a href="https://redux.js.org/" target="_blank" title="Redux"> <img src="https://img.shields.io/badge/Redux.js-org-blueviolet"/>
 <a href="https://getbootstrap.com/" target="_blank" title="Bootstrap"> <img src="https://img.shields.io/badge/Bootstrap-site-9cf"/>
+<a href="https://angular.io/" target="_blank" title="Angular"> <img src="https://img.shields.io/badge/angular-io-red"/>
+<a href="https://api.jquery.com/" target="_blank" title="jQuery"> <img src="https://img.shields.io/badge/jQuery-API-informational"/>
 
 ## _Statistics_
 

@@ -5,14 +5,14 @@
 
 Here is my scope:
 
-<a href="https://www.python.org" target="_blank" rel="noreferrer" title="python"> <img src="https://github.com/Viton4ik/Info_page_HTML/blob/master/python.jpg" alt="python" width="50x" height="50x"/></h3> 
+<a href="https://www.python.org" target="_blank" rel="noreferrer" title="python"> <img src="https://static.vecteezy.com/system/resources/previews/012/697/295/original/3d-python-programming-language-logo-free-png.png" alt="python" width="50x" height="50x"/></h3> 
 <a href="https://www.djangoproject.com" target="_blank" rel="noreferrer" title="django"> <img src="https://github.com/Viton4ik/Info_page_HTML/blob/master/django.png" alt="django" width="50x" height="50x"/></h3> 
-<a href="https://html.spec.whatwg.org/multipage/#toc-introduction" target="_blank" rel="noreferrer" title="html"> <img src="https://github.com/Viton4ik/Info_page_HTML/blob/master/html.jpeg" alt="html" width="50x" height="50x"/></h3> 
+<a href="https://html.spec.whatwg.org/multipage/#toc-introduction" target="_blank" rel="noreferrer" title="html"> <img src="https://cdn3d.iconscout.com/3d/free/thumb/free-html-5728485-4781249.png?f=webp" alt="html" width="50x" height="50x"/></h3> 
 <a href="https://css-tricks.com/" target="_blank" rel="noreferrer" title="CSS"> <img src="https://github.com/Viton4ik/Info_page_HTML/blob/master/css.png" alt="CSS" width="50x" height="50x"/></h3> 
 <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer" title="JS"> <img src="https://fuzeservers.ru/wp-content/uploads/9/3/a/93a14a817aba78c219b6421198863989.png" alt="JS" width="50x" height="50x"/></h3> 
 <a href="https://react.dev/" target="_blank" rel="noreferrer" title="React"> <img src="https://stickerboom.ru/files/2016/01/18/3456x2714-300x300.png" alt="React" width="50x" height="50x"/></h3> 
 <a href="https://webpack.js.org/" target="_blank" rel="noreferrer" title="Webpack"> <img src="https://cdn.worldvectorlogo.com/logos/webpack-icon.svg" alt="Webpack" width="50x" height="50x"/></h3> 
-<a href="https://www.typescriptlang.org/" target="_blank" rel="noreferrer" title="TypeScript"> <img src="https://desano.ru/uploads/catalog/1427/NS-10437-1.jpg" alt="TypeScript" width="50x" height="50x"/></h3> 
+<a href="https://www.typescriptlang.org/" target="_blank" rel="noreferrer" title="TypeScript"> <img src="https://typescript-eslint.io/img/logo.svg" alt="TypeScript" width="50x" height="50x"/></h3> 
 
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Viton4ik&layout=donut)](https://github.com/anuraghazra/github-readme-stats)
 

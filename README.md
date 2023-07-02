@@ -37,6 +37,8 @@ Here is my scope:
 <a href="https://channels.readthedocs.io/en/stable/topics/channel_layers.html" target="_blank" title="Channel Layers"> <img src="https://img.shields.io/badge/Django-Channel%20Layers-yellow"/>
 <a href="https://www.tornadoweb.org/en/stable/" target="_blank" title="Tornado Web Server"> <img src="https://img.shields.io/badge/Tornado-Web%20Server-purple"/>
 <a href="https://pypi.org/project/Twisted/" target="_blank" title="Twisted"> <img src="https://img.shields.io/badge/Servers-Twisted-brown"/>
+<a href="https://fonts.google.com/?preview.text=Victor&preview.text_type=custom&query=Inter" target="_blank" title="Google Fonts"> <img src="https://img.shields.io/badge/Google%20Fonts-yellow"/>
+<a href="https://loading.io/css/" target="_blank" title="CSS Loaders"> <img src="https://img.shields.io/badge/CSS%20Loaders-orange"/>
 
 ## _Statistics_
 

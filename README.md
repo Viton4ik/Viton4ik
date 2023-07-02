@@ -34,7 +34,8 @@ Here is my scope:
 <a href="https://angular.io/" target="_blank" title="Angular"> <img src="https://img.shields.io/badge/angular-io-red"/>
 <a href="https://api.jquery.com/" target="_blank" title="jQuery"> <img src="https://img.shields.io/badge/jQuery-API-informational"/>
 <a href="https://nextjs.org/" target="_blank" title="Next.js"> <img src="https://img.shields.io/badge/NEXT.js-8A2BE2"/>
-<a href="https://channels.readthedocs.io/en/stable/topics/channel_layers.html" target="_blank" title="Channel Layers"> <img src="https://img.shields.io/badge/Channel%20Layers-yellow"/>
+<a href="https://channels.readthedocs.io/en/stable/topics/channel_layers.html" target="_blank" title="Channel Layers"> <img src="https://img.shields.io/badge/Django-Channel%20Layers-yellow"/>
+<a href="https://www.tornadoweb.org/en/stable/" target="_blank" title="Tornado Web Server"> <img src="https://img.shields.io/badge/Tornado-Web%20Server-purple"/>
 
 ## _Statistics_
 

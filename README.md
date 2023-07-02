@@ -33,6 +33,7 @@ Here is my scope:
 <a href="https://getbootstrap.com/" target="_blank" title="Bootstrap"> <img src="https://img.shields.io/badge/Bootstrap-site-9cf"/>
 <a href="https://angular.io/" target="_blank" title="Angular"> <img src="https://img.shields.io/badge/angular-io-red"/>
 <a href="https://api.jquery.com/" target="_blank" title="jQuery"> <img src="https://img.shields.io/badge/jQuery-API-informational"/>
+<a href="https://nextjs.org/" target="_blank" title="Next.js"> <img src="https://img.shields.io/badge/NEXT.js-8A2BE2"/>
 
 ## _Statistics_
 

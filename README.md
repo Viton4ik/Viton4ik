@@ -36,6 +36,7 @@ Here is my scope:
 <a href="https://nextjs.org/" target="_blank" title="Next.js"> <img src="https://img.shields.io/badge/NEXT.js-8A2BE2"/>
 <a href="https://channels.readthedocs.io/en/stable/topics/channel_layers.html" target="_blank" title="Channel Layers"> <img src="https://img.shields.io/badge/Django-Channel%20Layers-yellow"/>
 <a href="https://www.tornadoweb.org/en/stable/" target="_blank" title="Tornado Web Server"> <img src="https://img.shields.io/badge/Tornado-Web%20Server-purple"/>
+<a href="https://pypi.org/project/Twisted/" target="_blank" title="Twisted"> <img src="https://img.shields.io/badge/Servers-Twisted-brown"/>
 
 ## _Statistics_
 

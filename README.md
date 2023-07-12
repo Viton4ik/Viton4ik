@@ -41,6 +41,7 @@ Here is my scope:
 <a href="https://loading.io/css/" target="_blank" title="CSS Loaders"> <img src="https://img.shields.io/badge/CSS%20Loaders-orange"/>
 <a href="https://the-echoplex.net/flexyboxes/" target="_blank" title="flexyboxes"> <img src="https://img.shields.io/badge/help-flexyboxes-blue"/>
 <a href="https://css-tricks.com/complete-guide-to-css-functions/" target="_blank" title="css-tricks"> <img src="https://img.shields.io/badge/css-tricks-green"/>
+<a href="https://techrocks.ru/2017/11/17/15-react-components/" target="_blank" title="15-react-components"> <img src="https://img.shields.io/badge/15_react-components-red"/>
 
 ## _Statistics_
 

@@ -36,6 +36,8 @@ rest of my time goes to small engineering and automation tools.
   <source media="(prefers-color-scheme: dark)" srcset="assets/languages-dark.svg">
   <img alt="Top languages" src="assets/languages-light.svg" width="430">
 </picture>
+<!-- DOWNLOADS:START -->
+<!-- DOWNLOADS:END -->
 
 <sub>
 These cards are plain SVG files committed to this repository and refreshed daily

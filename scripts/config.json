@@ -13,6 +13,9 @@
   "_comment_tiles": "Which numbers appear on the overview card, in order, up to six. Available: public_repos, stars, forks, followers, languages, years.",
   "tiles": ["public_repos", "languages", "years", "stars", "forks", "followers"],
 
+  "_comment_downloads_card": "Release-asset downloads card: 'language' groups them by each repository's main language, 'repository' by the repository itself, 'off' disables the card. The card and its README reference disappear automatically when there are no downloads at all.",
+  "downloads_card": "language",
+
   "_comment_recent_count": "How many recently pushed repositories to list in the README.",
   "recent_count": 6,
 

@@ -163,6 +163,29 @@ def collect(config: dict) -> dict:
                 continue
             language_bytes[language] = language_bytes.get(language, 0) + int(size)
 
+    # Release-asset downloads. GitHub only counts downloads of files attached
+    # to a release, so a repository without releases contributes nothing here
+    # — it has no download count at all, which is not the same as zero.
+    downloads_by_repo: dict[str, int] = {}
+    downloads_by_language: dict[str, int] = {}
+    release_assets = 0
+    for repo in own:
+        releases = api_get(f"/repos/{username}/{repo['name']}/releases?per_page=100")
+        if not isinstance(releases, list) or not releases:
+            continue
+        total = 0
+        for release in releases:
+            for asset in release.get("assets") or []:
+                total += int(asset.get("download_count", 0))
+                release_assets += 1
+        if total <= 0:
+            continue
+        downloads_by_repo[repo["name"]] = total
+        language = repo.get("language") or "Other"
+        downloads_by_language[language] = (
+            downloads_by_language.get(language, 0) + total
+        )
+
     created = dt.datetime.strptime(
         user["created_at"], "%Y-%m-%dT%H:%M:%SZ"
     ).replace(tzinfo=dt.timezone.utc)
@@ -199,8 +222,12 @@ def collect(config: dict) -> dict:
             "languages": len(language_bytes),
             "years": years,
             "repos_counted_for_languages": counted_repos,
+            "downloads": sum(downloads_by_repo.values()),
+            "release_assets": release_assets,
         },
         "language_bytes": language_bytes,
+        "downloads_by_repo": downloads_by_repo,
+        "downloads_by_language": downloads_by_language,
         "recent": recent,
     }
 
@@ -237,6 +264,41 @@ def card_open(width: int, height: int, theme: dict, title: str) -> list[str]:
         f'<rect x="0.5" y="0.5" width="{width - 1}" height="{height - 1}" '
         f'rx="10" fill="{theme["surface"]}" stroke="{theme["border"]}"/>',
     ]
+
+
+# Rough per-character advance widths, as a fraction of the font size, for the
+# sans-serif stack below. SVG has no text measurement, so a label that must not
+# collide with the bar beside it is trimmed against this estimate.
+_NARROW = set("ijlt.,:;'`|!I[](){}/\\ ")
+_WIDE = set("mwMW@%")
+_UPPER = set("ABCDEFGHJKLNOPQRSTUVXYZ&")
+
+
+def estimate_width(text: str, size: float) -> float:
+    total = 0.0
+    for character in text:
+        if character in _NARROW:
+            total += 0.31
+        elif character in _WIDE:
+            total += 0.92
+        elif character in _UPPER:
+            total += 0.70
+        elif character.isdigit():
+            total += 0.56
+        else:
+            total += 0.55
+    return total * size
+
+
+def fit_text(text: str, size: float, max_px: float) -> str:
+    """Trim text with an ellipsis until it fits the given pixel width."""
+    if estimate_width(text, size) <= max_px:
+        return text
+    ellipsis = "…"
+    trimmed = text
+    while trimmed and estimate_width(trimmed + ellipsis, size) > max_px:
+        trimmed = trimmed[:-1]
+    return (trimmed.rstrip() + ellipsis) if trimmed else ellipsis
 
 
 def compact(number: int) -> str:
@@ -320,55 +382,101 @@ def language_rows(data: dict, max_languages: int) -> list[tuple[str, float]]:
     return rows
 
 
-def render_languages(data: dict, mode: str, max_languages: int) -> str:
+def render_bar_card(mode: str, title: str, subtitle: str,
+                    rows: list[tuple[str, float, str]]) -> str:
+    """Render a labelled bar list.
+
+    Each row is (label, fraction of the whole in 0..1, right-hand value). The
+    track is always the whole, so a bar's length is the quantity it stands
+    for; scaling to the largest row instead would make the leader look like
+    100% of everything.
+    """
     theme = THEMES[mode]
-    rows = language_rows(data, max_languages)
 
     row_height = 28
     top = 74
     height = top + row_height * len(rows) + 14
-    parts = card_open(CARD_W, height, theme, "Top languages")
+    parts = card_open(CARD_W, height, theme, title)
 
-    parts.append(text_node(24, 36, "Top languages", size=15,
+    parts.append(text_node(24, 36, title, size=15,
                            fill=theme["primary"], weight="600"))
-    parts.append(text_node(
-        24, 54,
-        f'by bytes of code across {data["totals"]["repos_counted_for_languages"]} '
-        f'public repositories',
-        size=11, fill=theme["secondary"],
-    ))
+    parts.append(text_node(24, 54, subtitle, size=11, fill=theme["secondary"]))
 
-    bar_x = 148
-    bar_end = CARD_W - 76
-    bar_width = bar_end - bar_x
+    # Give the label column whatever the longest label needs, within limits,
+    # so repository names are not squeezed into the width a language name
+    # happens to want.
+    label_x = 24
+    label_space = max(
+        (estimate_width(name, 12) for name, _, _ in rows), default=0.0
+    )
+    label_right = label_x + min(max(label_space + 12, 112.0), 210.0)
 
-    for index, (name, share) in enumerate(rows):
+    bar_x = label_right
+    bar_width = (CARD_W - 76) - bar_x
+
+    for index, (name, fraction, value_text) in enumerate(rows):
         y = top + index * row_height
         colour = (theme["other"] if name == "Other"
                   else theme["series"][index % len(theme["series"])])
 
-        label = name if len(name) <= 16 else name[:15] + "…"
-        parts.append(text_node(24, y + 13, label, size=12,
+        label = fit_text(name, 12, label_right - label_x - 12)
+        parts.append(text_node(label_x, y + 13, label, size=12,
                                fill=theme["primary"]))
 
         parts.append(
             f'<rect x="{bar_x}" y="{y + 4}" width="{bar_width}" height="9" '
             f'rx="4.5" fill="{theme["track"]}"/>'
         )
-        # The track is the full 100%, so a bar's length is its actual share.
-        # Scaling to the largest value instead would make a 55% language look
-        # like the whole chart.
-        filled = max(5.0, bar_width * (share / 100.0))
+        filled = max(5.0, bar_width * max(0.0, min(1.0, fraction)))
         parts.append(
             f'<rect x="{bar_x}" y="{y + 4}" width="{filled:.1f}" height="9" '
             f'rx="4.5" fill="{colour}"/>'
         )
 
-        parts.append(text_node(CARD_W - 24, y + 13, f"{share:.1f}%", size=12,
+        parts.append(text_node(CARD_W - 24, y + 13, value_text, size=12,
                                fill=theme["secondary"], anchor="end"))
 
     parts.append("</svg>")
     return "\n".join(parts)
+
+
+def render_languages(data: dict, mode: str, max_languages: int) -> str:
+    rows = [(name, share / 100.0, f"{share:.1f}%")
+            for name, share in language_rows(data, max_languages)]
+    return render_bar_card(
+        mode, "Top languages",
+        f'by bytes of code across '
+        f'{data["totals"]["repos_counted_for_languages"]} public repositories',
+        rows,
+    )
+
+
+def render_downloads(data: dict, mode: str, group_by: str,
+                     max_rows: int = 7) -> str | None:
+    """Release-asset downloads, grouped by language or by repository.
+
+    Returns None when there is nothing to show, so the profile never carries a
+    card full of zeroes.
+    """
+    source = (data.get("downloads_by_language") if group_by == "language"
+              else data.get("downloads_by_repo")) or {}
+    total = sum(source.values())
+    if total <= 0:
+        return None
+
+    ordered = sorted(source.items(), key=lambda kv: kv[1], reverse=True)
+    head, tail = ordered[:max_rows], ordered[max_rows:]
+    rows = [(name, count / total, compact(count)) for name, count in head]
+    if tail:
+        rest = sum(count for _, count in tail)
+        rows.append(("Other", rest / total, compact(rest)))
+
+    noun = "language" if group_by == "language" else "repository"
+    return render_bar_card(
+        mode, "Release downloads",
+        f"{compact(total)} downloads of release files, by {noun}",
+        rows,
+    )
 
 
 # --------------------------------------------------------------------------
@@ -378,10 +486,23 @@ def render_languages(data: dict, mode: str, max_languages: int) -> str:
 START = "<!-- RECENT:START -->"
 END = "<!-- RECENT:END -->"
 
+DL_START = "<!-- DOWNLOADS:START -->"
+DL_END = "<!-- DOWNLOADS:END -->"
+
+DOWNLOADS_PICTURE = """<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/downloads-dark.svg">
+  <img alt="Release downloads" src="assets/downloads-light.svg" width="430">
+</picture>"""
+
+
+def replace_block(text: str, start: str, end: str, body: str) -> str:
+    head, _, rest = text.partition(start)
+    _, _, tail = rest.partition(end)
+    return f"{head}{start}\n{body}\n{end}{tail}"
+
 
 def render_recent_markdown(data: dict, count: int) -> str:
     lines = [
-        START,
         "",
         "| Project | What it is | Language | Last push |",
         "| --- | --- | --- | --- |",
@@ -396,22 +517,32 @@ def render_recent_markdown(data: dict, count: int) -> str:
             f'| [{repo["name"]}]({repo["url"]}) | {description} | '
             f'{language} | {repo["pushed_at"]} |'
         )
-    lines += ["", f'<sub>Updated automatically on {data["generated_at"]}.</sub>',
-              "", END]
+    lines += ["", f'<sub>Updated automatically on {data["generated_at"]}.</sub>', ""]
     return "\n".join(lines)
 
 
-def update_readme(readme_path: Path, data: dict, count: int) -> bool:
+def update_readme(readme_path: Path, data: dict, count: int,
+                  *, show_downloads: bool) -> bool:
     if not readme_path.exists():
         return False
     original = readme_path.read_text(encoding="utf-8")
-    if START not in original or END not in original:
-        print(f"note: {readme_path} has no {START} / {END} markers; skipping")
-        return False
+    updated = original
 
-    head, _, rest = original.partition(START)
-    _, _, tail = rest.partition(END)
-    updated = head + render_recent_markdown(data, count) + tail
+    if START in updated and END in updated:
+        updated = replace_block(updated, START, END,
+                                render_recent_markdown(data, count))
+    else:
+        print(f"note: {readme_path} has no {START} / {END} markers; skipping")
+
+    # The downloads card only exists when there is something to put on it, so
+    # the README reference is added and removed along with the file. That way
+    # the profile never points at a card that was not generated.
+    if DL_START in updated and DL_END in updated:
+        updated = replace_block(
+            updated, DL_START, DL_END,
+            DOWNLOADS_PICTURE if show_downloads else "",
+        )
+
     if updated == original:
         return False
     readme_path.write_text(updated, encoding="utf-8")
@@ -454,6 +585,9 @@ def main() -> int:
     out = Path(arguments.out)
     out.mkdir(parents=True, exist_ok=True)
 
+    group_by = config.get("downloads_card", "language")
+    show_downloads = False
+
     for mode in ("light", "dark"):
         write_file(
             out / f"overview-{mode}.svg",
@@ -464,14 +598,28 @@ def main() -> int:
             render_languages(data, mode, int(config.get("max_languages", 7))),
         )
 
+        card = (None if group_by == "off"
+                else render_downloads(data, mode, group_by))
+        path = out / f"downloads-{mode}.svg"
+        if card is None:
+            path.unlink(missing_ok=True)
+        else:
+            write_file(path, card)
+            show_downloads = True
+
     write_file(out / "data.json", json.dumps(data, indent=2, ensure_ascii=False))
 
     changed = update_readme(Path(arguments.readme), data,
-                            int(config.get("recent_count", 6)))
+                            int(config.get("recent_count", 6)),
+                            show_downloads=show_downloads)
 
+    downloads = data["totals"].get("downloads", 0)
     print(f'cards written to {out}/ '
           f'({data["totals"]["public_repos"]} repos, '
-          f'{len(data["language_bytes"])} languages); '
+          f'{len(data["language_bytes"])} languages, '
+          f'{downloads} release downloads across '
+          f'{len(data.get("downloads_by_repo") or {})} repositories); '
+          f'downloads card: {"on" if show_downloads else "omitted (no data)"}; '
           f'README {"updated" if changed else "unchanged"}')
     return 0
 

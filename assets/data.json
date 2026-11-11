@@ -17,15 +17,15 @@
     "release_assets": 1
   },
   "language_bytes": {
-    "Python": 709095,
+    "C#": 24455,
+    "Batchfile": 4143,
     "Shell": 5325,
+    "Python": 715393,
     "JavaScript": 1890745,
     "CSS": 794698,
     "HTML": 324828,
     "PowerShell": 106565,
-    "Batchfile": 4143,
     "Assembly": 17614,
-    "C#": 24455,
     "TypeScript": 6758
   },
   "downloads_by_repo": {
@@ -35,6 +35,15 @@
     "C#": 1
   },
   "recent": [
+    {
+      "name": "FileDateChanger",
+      "url": "https://github.com/Viton4ik/FileDateChanger",
+      "description": "Tiny portable Windows GUI tool to change file creation, modification and access dates and strip metadata from Office, JPEG and PNG files. Single 25 KB .exe, no install.",
+      "language": "C#",
+      "stars": 0,
+      "pushed_at": "2026-11-11",
+      "homepage": ""
+    },
     {
       "name": "Technology-and-Space",
       "url": "https://github.com/Viton4ik/Technology-and-Space",
@@ -123,15 +132,6 @@
       "language": "Python",
       "stars": 0,
       "pushed_at": "2026-10-30",
-      "homepage": ""
-    },
-    {
-      "name": "FileDateChanger",
-      "url": "https://github.com/Viton4ik/FileDateChanger",
-      "description": "Смена дат создания и изменения файлов в Windows + очистка метаданных",
-      "language": "C#",
-      "stars": 0,
-      "pushed_at": "2026-10-26",
       "homepage": ""
     },
     {

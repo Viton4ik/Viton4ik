@@ -37,6 +37,10 @@ rest of my time goes to small engineering and automation tools.
   <img alt="Top languages" src="assets/languages-light.svg" width="430">
 </picture>
 <!-- DOWNLOADS:START -->
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/downloads-dark.svg">
+  <img alt="Release downloads" src="assets/downloads-light.svg" width="430">
+</picture>
 <!-- DOWNLOADS:END -->
 
 <sub>

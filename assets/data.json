@@ -12,7 +12,9 @@
     "followers": 4,
     "languages": 10,
     "years": 4.216290212183436,
-    "repos_counted_for_languages": 40
+    "repos_counted_for_languages": 40,
+    "downloads": 1,
+    "release_assets": 1
   },
   "language_bytes": {
     "Python": 709095,
@@ -25,6 +27,12 @@
     "Assembly": 17614,
     "C#": 24455,
     "TypeScript": 6758
+  },
+  "downloads_by_repo": {
+    "FileDateChanger": 1
+  },
+  "downloads_by_language": {
+    "C#": 1
   },
   "recent": [
     {

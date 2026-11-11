@@ -28,24 +28,18 @@ rest of my time goes to small engineering and automation tools.
 
 ## Statistics
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/overview-dark.svg">
-  <img alt="GitHub overview" src="assets/overview-light.svg" width="430">
-</picture>
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/languages-dark.svg">
-  <img alt="Top languages" src="assets/languages-light.svg" width="430">
-</picture>
-<!-- DOWNLOADS:START -->
+<p>
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/overview-dark.svg"><img alt="GitHub overview" src="assets/overview-light.svg" width="410"></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/languages-dark.svg"><img alt="Top languages" src="assets/languages-light.svg" width="410"></picture>
+<!-- DOWNLOADS:START --><!-- DOWNLOADS:END -->
+</p>
 
-<!-- DOWNLOADS:END -->
-
-<sub>
+<p><sub>
 These cards are plain SVG files committed to this repository and refreshed daily
 by <a href=".github/workflows/profile-stats.yml">a GitHub Action</a>. No external
 stats service is involved, so there is nothing here that can go down.
 Source: <a href="scripts/gen_cards.py">scripts/gen_cards.py</a>.
-</sub>
+</sub></p>
 
 ## Contact
 

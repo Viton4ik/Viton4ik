@@ -491,16 +491,27 @@ END = "<!-- RECENT:END -->"
 DL_START = "<!-- DOWNLOADS:START -->"
 DL_END = "<!-- DOWNLOADS:END -->"
 
-DOWNLOADS_PICTURE = """<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/downloads-dark.svg">
-  <img alt="Release downloads" src="assets/downloads-light.svg" width="430">
-</picture>"""
+DOWNLOADS_PICTURE = (
+    '<picture>'
+    '<source media="(prefers-color-scheme: dark)" '
+    'srcset="assets/downloads-dark.svg">'
+    '<img alt="Release downloads" src="assets/downloads-light.svg" width="410">'
+    '</picture>'
+)
 
 
 def replace_block(text: str, start: str, end: str, body: str) -> str:
+    """Put `body` between the two markers, keeping them on one line when it is
+    empty.
+
+    An empty block must not leave a blank line behind: inside the statistics
+    paragraph a blank line would end the HTML block, which is what used to
+    push the caption into the same line as the cards.
+    """
     head, _, rest = text.partition(start)
     _, _, tail = rest.partition(end)
-    return f"{head}{start}\n{body}\n{end}{tail}"
+    middle = "\n%s\n" % body if body else ""
+    return "%s%s%s%s%s" % (head, start, middle, end, tail)
 
 
 def render_recent_markdown(data: dict, count: int) -> str:

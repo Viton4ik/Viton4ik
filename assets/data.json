@@ -1,0 +1,382 @@
+{
+  "generated_at": "2026-11-11",
+  "user": {
+    "login": "Viton4ik",
+    "name": "Vict0r",
+    "followers": 4
+  },
+  "totals": {
+    "public_repos": 40,
+    "stars": 3,
+    "forks": 0,
+    "followers": 4,
+    "languages": 10,
+    "years": 4.216290212183436,
+    "repos_counted_for_languages": 40
+  },
+  "language_bytes": {
+    "Python": 709095,
+    "Shell": 5325,
+    "JavaScript": 1890745,
+    "CSS": 794698,
+    "HTML": 324828,
+    "PowerShell": 106565,
+    "Batchfile": 4143,
+    "Assembly": 17614,
+    "C#": 24455,
+    "TypeScript": 6758
+  },
+  "recent": [
+    {
+      "name": "Technology-and-Space",
+      "url": "https://github.com/Viton4ik/Technology-and-Space",
+      "description": "Space Race: Satellites & Spacecraft in Orbit (1957–2026)",
+      "language": "Python",
+      "stars": 0,
+      "pushed_at": "2026-11-11",
+      "homepage": ""
+    },
+    {
+      "name": "wage-race-project",
+      "url": "https://github.com/Viton4ik/wage-race-project",
+      "description": "Minimum Wage vs Average Wage in the EU, 2000-2025",
+      "language": "Python",
+      "stars": 0,
+      "pushed_at": "2026-11-09",
+      "homepage": ""
+    },
+    {
+      "name": "Tongues-of-the-World",
+      "url": "https://github.com/Viton4ik/Tongues-of-the-World",
+      "description": "tongues_of_the_world",
+      "language": "JavaScript",
+      "stars": 0,
+      "pushed_at": "2026-11-06",
+      "homepage": ""
+    },
+    {
+      "name": "global_gold_reserves_3d",
+      "url": "https://github.com/Viton4ik/global_gold_reserves_3d",
+      "description": "Global Gold Reserves (1950 – Oct 2026) | Smooth 3D Bar Chart Race Generator",
+      "language": "Python",
+      "stars": 0,
+      "pushed_at": "2026-11-05",
+      "homepage": ""
+    },
+    {
+      "name": "global_electricity_generation_3d_mp4",
+      "url": "https://github.com/Viton4ik/global_electricity_generation_3d_mp4",
+      "description": "Global Electricity Generation by Country (1960–2026)",
+      "language": "Python",
+      "stars": 0,
+      "pushed_at": "2026-11-01",
+      "homepage": ""
+    },
+    {
+      "name": "devices_control",
+      "url": "https://github.com/Viton4ik/devices_control",
+      "description": "Local web UI (Windows 10/11) for inspecting PnP devices and enabling/disabling them",
+      "language": "JavaScript",
+      "stars": 0,
+      "pushed_at": "2026-10-31",
+      "homepage": ""
+    },
+    {
+      "name": "devices_asm",
+      "url": "https://github.com/Viton4ik/devices_asm",
+      "description": "A DOS/Windows utility that enumerates and displays information about devices installed in the system, split into two major sections with Russian explanations for each device.",
+      "language": "Assembly",
+      "stars": 0,
+      "pushed_at": "2026-10-31",
+      "homepage": ""
+    },
+    {
+      "name": "Internet_Cables",
+      "url": "https://github.com/Viton4ik/Internet_Cables",
+      "description": "A MOTION FILM · WIRES BENEATH THE WAVES",
+      "language": "JavaScript",
+      "stars": 0,
+      "pushed_at": "2026-10-31",
+      "homepage": ""
+    },
+    {
+      "name": "fuel-race-project",
+      "url": "https://github.com/Viton4ik/fuel-race-project",
+      "description": "Vertical 1080x1920, 60 fps, 75 s bar-chart race: gasoline and diesel retail prices in US$ per litre for EU-27, United Kingdom, Norway, Switzerland, Iceland, Türkiye (top-7 race) plus Serbia, Russia and China (pinned)",
+      "language": "Python",
+      "stars": 0,
+      "pushed_at": "2026-10-31",
+      "homepage": ""
+    },
+    {
+      "name": "global_debt_1926_2026_mp4_builder",
+      "url": "https://github.com/Viton4ik/global_debt_1926_2026_mp4_builder",
+      "description": "Global Government Debt Race (1926 – Oct 2026) | Auto-Installer & Self-Cleaning MP4 Builder",
+      "language": "Python",
+      "stars": 0,
+      "pushed_at": "2026-10-30",
+      "homepage": ""
+    },
+    {
+      "name": "FileDateChanger",
+      "url": "https://github.com/Viton4ik/FileDateChanger",
+      "description": "Смена дат создания и изменения файлов в Windows + очистка метаданных",
+      "language": "C#",
+      "stars": 0,
+      "pushed_at": "2026-10-26",
+      "homepage": ""
+    },
+    {
+      "name": "EngineeringDocumentationApp",
+      "url": "https://github.com/Viton4ik/EngineeringDocumentationApp",
+      "description": "Engineering Documentation App",
+      "language": "Python",
+      "stars": 0,
+      "pushed_at": "2026-10-22",
+      "homepage": ""
+    },
+    {
+      "name": "ExecuteFileOnDistantComp",
+      "url": "https://github.com/Viton4ik/ExecuteFileOnDistantComp",
+      "description": "How to execute file on a distant computer with python",
+      "language": "Python",
+      "stars": 0,
+      "pushed_at": "2023-11-06",
+      "homepage": ""
+    },
+    {
+      "name": "countriesInfo",
+      "url": "https://github.com/Viton4ik/countriesInfo",
+      "description": "Webpack-React app to find info about countries",
+      "language": "TypeScript",
+      "stars": 0,
+      "pushed_at": "2023-10-20",
+      "homepage": ""
+    },
+    {
+      "name": "portfolio",
+      "url": "https://github.com/Viton4ik/portfolio",
+      "description": "my portfolio page",
+      "language": "HTML",
+      "stars": 0,
+      "pushed_at": "2023-09-07",
+      "homepage": ""
+    },
+    {
+      "name": "EDG_time_sync",
+      "url": "https://github.com/Viton4ik/EDG_time_sync",
+      "description": "a time synchronization function",
+      "language": "Python",
+      "stars": 0,
+      "pushed_at": "2023-09-05",
+      "homepage": ""
+    },
+    {
+      "name": "documentationListCreator",
+      "url": "https://github.com/Viton4ik/documentationListCreator",
+      "description": "documentationListCreator (GST documentation)",
+      "language": "Python",
+      "stars": 0,
+      "pushed_at": "2023-09-05",
+      "homepage": ""
+    },
+    {
+      "name": "SilantSite",
+      "url": "https://github.com/Viton4ik/SilantSite",
+      "description": "Реальный кейс от компании «Силант»",
+      "language": "Python",
+      "stars": 0,
+      "pushed_at": "2023-08-22",
+      "homepage": ""
+    },
+    {
+      "name": "easyChat",
+      "url": "https://github.com/Viton4ik/easyChat",
+      "description": "easyChat with Django",
+      "language": "Python",
+      "stars": 1,
+      "pushed_at": "2023-08-10",
+      "homepage": ""
+    },
+    {
+      "name": "INNScaner",
+      "url": "https://github.com/Viton4ik/INNScaner",
+      "description": "",
+      "language": "JavaScript",
+      "stars": 0,
+      "pushed_at": "2023-07-26",
+      "homepage": ""
+    },
+    {
+      "name": "publicPosts",
+      "url": "https://github.com/Viton4ik/publicPosts",
+      "description": "",
+      "language": "Python",
+      "stars": 0,
+      "pushed_at": "2023-06-25",
+      "homepage": ""
+    },
+    {
+      "name": "MenuApp",
+      "url": "https://github.com/Viton4ik/MenuApp",
+      "description": "MenuApp. BackEnd: Django REST; FrontEnd: React",
+      "language": "JavaScript",
+      "stars": 1,
+      "pushed_at": "2023-06-12",
+      "homepage": ""
+    },
+    {
+      "name": "weatherForecastPage",
+      "url": "https://github.com/Viton4ik/weatherForecastPage",
+      "description": "HTML was obtained by using React",
+      "language": "HTML",
+      "stars": 0,
+      "pushed_at": "2023-05-26",
+      "homepage": ""
+    },
+    {
+      "name": "tinyGamesPython",
+      "url": "https://github.com/Viton4ik/tinyGamesPython",
+      "description": "\"My first repository on GitHub.\"",
+      "language": "Python",
+      "stars": 0,
+      "pushed_at": "2023-04-07",
+      "homepage": ""
+    },
+    {
+      "name": "TeleBot_exchanger",
+      "url": "https://github.com/Viton4ik/TeleBot_exchanger",
+      "description": "TeleBot (currency+crypto exchanger)",
+      "language": "Python",
+      "stars": 0,
+      "pushed_at": "2023-04-07",
+      "homepage": ""
+    },
+    {
+      "name": "Vacantion-builder-script",
+      "url": "https://github.com/Viton4ik/Vacantion-builder-script",
+      "description": "",
+      "language": "Python",
+      "stars": 0,
+      "pushed_at": "2023-04-07",
+      "homepage": ""
+    },
+    {
+      "name": "Copy_Paste",
+      "url": "https://github.com/Viton4ik/Copy_Paste",
+      "description": "Copy_Paste buffer",
+      "language": "Python",
+      "stars": 0,
+      "pushed_at": "2023-04-06",
+      "homepage": ""
+    },
+    {
+      "name": "Bulletin_Board",
+      "url": "https://github.com/Viton4ik/Bulletin_Board",
+      "description": "Django Project",
+      "language": "CSS",
+      "stars": 1,
+      "pushed_at": "2023-04-06",
+      "homepage": ""
+    },
+    {
+      "name": "Info_page_HTML",
+      "url": "https://github.com/Viton4ik/Info_page_HTML",
+      "description": "Creating info page HTML+CSS just for fun!",
+      "language": "CSS",
+      "stars": 0,
+      "pushed_at": "2023-04-03",
+      "homepage": ""
+    },
+    {
+      "name": "photoSlider",
+      "url": "https://github.com/Viton4ik/photoSlider",
+      "description": "Photo Slider Application",
+      "language": "CSS",
+      "stars": 0,
+      "pushed_at": "2023-03-24",
+      "homepage": ""
+    },
+    {
+      "name": "HashGenerator",
+      "url": "https://github.com/Viton4ik/HashGenerator",
+      "description": "hash generator in python",
+      "language": "Python",
+      "stars": 0,
+      "pushed_at": "2023-03-01",
+      "homepage": ""
+    },
+    {
+      "name": "easyScrap",
+      "url": "https://github.com/Viton4ik/easyScrap",
+      "description": "easy web-scraping app for https://reddit.com/r/ with JS",
+      "language": "JavaScript",
+      "stars": 0,
+      "pushed_at": "2023-02-28",
+      "homepage": ""
+    },
+    {
+      "name": "IPscaner",
+      "url": "https://github.com/Viton4ik/IPscaner",
+      "description": "IPscaner script (bash)",
+      "language": "Shell",
+      "stars": 0,
+      "pushed_at": "2023-02-24",
+      "homepage": ""
+    },
+    {
+      "name": "wi-fi_password_list",
+      "url": "https://github.com/Viton4ik/wi-fi_password_list",
+      "description": "wi-fi password list creation",
+      "language": "Batchfile",
+      "stars": 0,
+      "pushed_at": "2023-02-20",
+      "homepage": ""
+    },
+    {
+      "name": "BirthdaysReminder",
+      "url": "https://github.com/Viton4ik/BirthdaysReminder",
+      "description": "Birthdays Reminder (Private telegram bot)",
+      "language": "Python",
+      "stars": 0,
+      "pushed_at": "2023-02-20",
+      "homepage": ""
+    },
+    {
+      "name": "WiFi-adapter-reloader",
+      "url": "https://github.com/Viton4ik/WiFi-adapter-reloader",
+      "description": "",
+      "language": "Python",
+      "stars": 0,
+      "pushed_at": "2023-02-04",
+      "homepage": ""
+    },
+    {
+      "name": "NewsPortal",
+      "url": "https://github.com/Viton4ik/NewsPortal",
+      "description": "",
+      "language": "CSS",
+      "stars": 0,
+      "pushed_at": "2023-01-16",
+      "homepage": ""
+    },
+    {
+      "name": "VirtualBox_autorun",
+      "url": "https://github.com/Viton4ik/VirtualBox_autorun",
+      "description": "",
+      "language": null,
+      "stars": 0,
+      "pushed_at": "2022-12-23",
+      "homepage": ""
+    },
+    {
+      "name": "Parser_for_angel.co",
+      "url": "https://github.com/Viton4ik/Parser_for_angel.co",
+      "description": "Parser_for_angel.co",
+      "language": "Python",
+      "stars": 0,
+      "pushed_at": "2022-12-18",
+      "homepage": ""
+    }
+  ]
+}

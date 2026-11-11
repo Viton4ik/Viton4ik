@@ -1,0 +1,51 @@
+name: Profile stats
+
+on:
+  # Once a day. The cards are static files, so this is the only thing that
+  # keeps them current.
+  schedule:
+    - cron: "17 4 * * *"
+  # Lets you refresh them by hand from the Actions tab.
+  workflow_dispatch:
+  # Refresh immediately when the generator or its configuration changes.
+  push:
+    branches: [master]
+    paths:
+      - "scripts/**"
+      - ".github/workflows/profile-stats.yml"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: profile-stats
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Generate cards
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python3 scripts/gen_cards.py
+
+      - name: Commit refreshed cards
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets README.md
+          if git diff --staged --quiet; then
+            echo "Nothing changed."
+          else
+            git commit -m "chore: refresh profile stats"
+            git push
+          fi

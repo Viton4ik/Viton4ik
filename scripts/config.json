@@ -1,0 +1,21 @@
+{
+  "username": "Viton4ik",
+
+  "_comment_exclude_repos": "Repositories ignored when counting languages. Use this to keep tutorial/bootcamp code from dominating the chart. Names are case-insensitive.",
+  "exclude_repos": [],
+
+  "_comment_exclude_languages": "Languages never shown in the chart, e.g. generated or vendored code.",
+  "exclude_languages": [],
+
+  "_comment_max_languages": "How many languages to list before the rest are folded into 'Other'.",
+  "max_languages": 7,
+
+  "_comment_tiles": "Which numbers appear on the overview card, in order, up to six. Available: public_repos, stars, forks, followers, languages, years.",
+  "tiles": ["public_repos", "languages", "years", "stars", "forks", "followers"],
+
+  "_comment_recent_count": "How many recently pushed repositories to list in the README.",
+  "recent_count": 6,
+
+  "_comment_recent_skip": "Repositories never listed in the README 'recent work' section.",
+  "recent_skip": ["Viton4ik"]
+}

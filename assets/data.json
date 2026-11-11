@@ -17,10 +17,10 @@
     "release_assets": 1
   },
   "language_bytes": {
+    "Python": 715393,
     "C#": 24455,
     "Batchfile": 4143,
     "Shell": 5325,
-    "Python": 715393,
     "JavaScript": 1890745,
     "CSS": 794698,
     "HTML": 324828,

@@ -16,6 +16,9 @@
   "_comment_downloads_card": "Release-asset downloads card: 'language' groups them by each repository's main language, 'repository' by the repository itself, 'off' disables the card. The card and its README reference disappear automatically when there are no downloads at all.",
   "downloads_card": "language",
 
+  "_comment_downloads_min_total": "The card stays hidden until release downloads reach this number, then appears on its own. A card announcing a couple of downloads says less than no card. Set it to 1 to show the card as soon as there is any download at all.",
+  "downloads_min_total": 25,
+
   "_comment_recent_count": "How many recently pushed repositories to list in the README.",
   "recent_count": 6,
 

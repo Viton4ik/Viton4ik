@@ -452,16 +452,17 @@ def render_languages(data: dict, mode: str, max_languages: int) -> str:
 
 
 def render_downloads(data: dict, mode: str, group_by: str,
-                     max_rows: int = 7) -> str | None:
+                     minimum: int = 1, max_rows: int = 7) -> str | None:
     """Release-asset downloads, grouped by language or by repository.
 
-    Returns None when there is nothing to show, so the profile never carries a
-    card full of zeroes.
+    Returns None when the total is below `minimum`. A card announcing a
+    handful of downloads says less than no card at all, so it stays hidden
+    until the number is worth showing and then appears on its own.
     """
     source = (data.get("downloads_by_language") if group_by == "language"
               else data.get("downloads_by_repo")) or {}
     total = sum(source.values())
-    if total <= 0:
+    if total <= 0 or total < minimum:
         return None
 
     ordered = sorted(source.items(), key=lambda kv: kv[1], reverse=True)
@@ -474,7 +475,8 @@ def render_downloads(data: dict, mode: str, group_by: str,
     noun = "language" if group_by == "language" else "repository"
     return render_bar_card(
         mode, "Release downloads",
-        f"{compact(total)} downloads of release files, by {noun}",
+        f"{compact(total)} download{'' if total == 1 else 's'} "
+        f"of release files, by {noun}",
         rows,
     )
 
@@ -599,7 +601,8 @@ def main() -> int:
         )
 
         card = (None if group_by == "off"
-                else render_downloads(data, mode, group_by))
+                else render_downloads(data, mode, group_by,
+                                      int(config.get("downloads_min_total", 1))))
         path = out / f"downloads-{mode}.svg"
         if card is None:
             path.unlink(missing_ok=True)
@@ -614,13 +617,25 @@ def main() -> int:
                             show_downloads=show_downloads)
 
     downloads = data["totals"].get("downloads", 0)
-    print(f'cards written to {out}/ '
-          f'({data["totals"]["public_repos"]} repos, '
-          f'{len(data["language_bytes"])} languages, '
-          f'{downloads} release downloads across '
-          f'{len(data.get("downloads_by_repo") or {})} repositories); '
-          f'downloads card: {"on" if show_downloads else "omitted (no data)"}; '
-          f'README {"updated" if changed else "unchanged"}')
+    repos_with_downloads = len(data.get("downloads_by_repo") or {})
+    minimum = int(config.get("downloads_min_total", 1))
+
+    if show_downloads:
+        card_state = "shown"
+    elif group_by == "off":
+        card_state = "disabled in the configuration"
+    else:
+        card_state = f"hidden, {downloads} is below the threshold of {minimum}"
+
+    print(
+        f"cards written to {out}/\n"
+        f'  repositories:       {data["totals"]["public_repos"]}\n'
+        f'  languages:          {len(data["language_bytes"])}\n'
+        f"  release downloads:  {downloads} "
+        f"across {repos_with_downloads} repositories\n"
+        f"  downloads card:     {card_state}\n"
+        f'  README:             {"updated" if changed else "unchanged"}'
+    )
     return 0
 
 

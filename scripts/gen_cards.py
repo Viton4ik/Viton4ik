@@ -495,7 +495,7 @@ DOWNLOADS_PICTURE = (
     '<picture>'
     '<source media="(prefers-color-scheme: dark)" '
     'srcset="assets/downloads-dark.svg">'
-    '<img alt="Release downloads" src="assets/downloads-light.svg" width="410">'
+    '<img alt="Release downloads" src="assets/downloads-light.svg" width="410" align="top">'
     '</picture>'
 )
 

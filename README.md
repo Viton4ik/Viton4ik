@@ -29,8 +29,8 @@ rest of my time goes to small engineering and automation tools.
 ## Statistics
 
 <p>
-<picture><source media="(prefers-color-scheme: dark)" srcset="assets/overview-dark.svg"><img alt="GitHub overview" src="assets/overview-light.svg" width="410"></picture>
-<picture><source media="(prefers-color-scheme: dark)" srcset="assets/languages-dark.svg"><img alt="Top languages" src="assets/languages-light.svg" width="410"></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/overview-dark.svg"><img alt="GitHub overview" src="assets/overview-light.svg" width="410" align="top"></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/languages-dark.svg"><img alt="Top languages" src="assets/languages-light.svg" width="410" align="top"></picture>
 <!-- DOWNLOADS:START --><!-- DOWNLOADS:END -->
 </p>
 

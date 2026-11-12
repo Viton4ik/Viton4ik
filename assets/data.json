@@ -1,29 +1,29 @@
 {
-  "generated_at": "2026-11-11",
+  "generated_at": "2026-11-12",
   "user": {
     "login": "Viton4ik",
     "name": "Vict0r",
     "followers": 4
   },
   "totals": {
-    "public_repos": 40,
+    "public_repos": 41,
     "stars": 3,
     "forks": 0,
     "followers": 4,
     "languages": 10,
-    "years": 4.216290212183436,
-    "repos_counted_for_languages": 40,
+    "years": 4.219028062970568,
+    "repos_counted_for_languages": 41,
     "downloads": 1,
     "release_assets": 1
   },
   "language_bytes": {
-    "Python": 715393,
-    "C#": 24455,
+    "Python": 1117226,
+    "JavaScript": 2276612,
+    "HTML": 651099,
+    "Shell": 10458,
+    "C#": 27655,
     "Batchfile": 4143,
-    "Shell": 5325,
-    "JavaScript": 1890745,
     "CSS": 794698,
-    "HTML": 324828,
     "PowerShell": 106565,
     "Assembly": 17614,
     "TypeScript": 6758
@@ -35,6 +35,15 @@
     "C#": 1
   },
   "recent": [
+    {
+      "name": "migration-desire-map",
+      "url": "https://github.com/Viton4ik/migration-desire-map",
+      "description": "An animated world-map video (9:43, 1920x1080, 30 fps) for an English-language YouTube channel",
+      "language": "Python",
+      "stars": 0,
+      "pushed_at": "2026-11-12",
+      "homepage": "https://www.youtube.com/watch?v=NsoRcE2Rik0"
+    },
     {
       "name": "FileDateChanger",
       "url": "https://github.com/Viton4ik/FileDateChanger",

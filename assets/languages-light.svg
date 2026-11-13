@@ -2,35 +2,35 @@
 <title>Top languages</title>
 <rect x="0.5" y="0.5" width="459" height="311" rx="10" fill="#fcfcfb" stroke="#e3e2df"/>
 <text x="24.0" y="36.0" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="15" font-weight="600" fill="#0b0b0b" text-anchor="start">Top languages</text>
-<text x="24.0" y="54.0" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="11" font-weight="400" fill="#52514e" text-anchor="start">by bytes of code across 41 public repositories</text>
+<text x="24.0" y="54.0" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="11" font-weight="400" fill="#52514e" text-anchor="start">by bytes of code across 42 public repositories</text>
 <text x="24.0" y="87.0" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="12" font-weight="400" fill="#0b0b0b" text-anchor="start">JavaScript</text>
 <rect x="136.0" y="78" width="248.0" height="9" rx="4.5" fill="#ebeae7"/>
-<rect x="136.0" y="78" width="112.6" height="9" rx="4.5" fill="#2a78d6"/>
-<text x="436.0" y="87.0" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="12" font-weight="400" fill="#52514e" text-anchor="end">45.4%</text>
+<rect x="136.0" y="78" width="111.4" height="9" rx="4.5" fill="#2a78d6"/>
+<text x="436.0" y="87.0" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="12" font-weight="400" fill="#52514e" text-anchor="end">44.9%</text>
 <text x="24.0" y="115.0" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="12" font-weight="400" fill="#0b0b0b" text-anchor="start">Python</text>
 <rect x="136.0" y="106" width="248.0" height="9" rx="4.5" fill="#ebeae7"/>
-<rect x="136.0" y="106" width="55.3" height="9" rx="4.5" fill="#eb6834"/>
-<text x="436.0" y="115.0" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="12" font-weight="400" fill="#52514e" text-anchor="end">22.3%</text>
+<rect x="136.0" y="106" width="57.4" height="9" rx="4.5" fill="#eb6834"/>
+<text x="436.0" y="115.0" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="12" font-weight="400" fill="#52514e" text-anchor="end">23.2%</text>
 <text x="24.0" y="143.0" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="12" font-weight="400" fill="#0b0b0b" text-anchor="start">CSS</text>
 <rect x="136.0" y="134" width="248.0" height="9" rx="4.5" fill="#ebeae7"/>
-<rect x="136.0" y="134" width="39.3" height="9" rx="4.5" fill="#1baf7a"/>
-<text x="436.0" y="143.0" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="12" font-weight="400" fill="#52514e" text-anchor="end">15.9%</text>
+<rect x="136.0" y="134" width="38.9" height="9" rx="4.5" fill="#1baf7a"/>
+<text x="436.0" y="143.0" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="12" font-weight="400" fill="#52514e" text-anchor="end">15.7%</text>
 <text x="24.0" y="171.0" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="12" font-weight="400" fill="#0b0b0b" text-anchor="start">HTML</text>
 <rect x="136.0" y="162" width="248.0" height="9" rx="4.5" fill="#ebeae7"/>
-<rect x="136.0" y="162" width="32.2" height="9" rx="4.5" fill="#eda100"/>
-<text x="436.0" y="171.0" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="12" font-weight="400" fill="#52514e" text-anchor="end">13.0%</text>
+<rect x="136.0" y="162" width="31.9" height="9" rx="4.5" fill="#eda100"/>
+<text x="436.0" y="171.0" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="12" font-weight="400" fill="#52514e" text-anchor="end">12.8%</text>
 <text x="24.0" y="199.0" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="12" font-weight="400" fill="#0b0b0b" text-anchor="start">PowerShell</text>
 <rect x="136.0" y="190" width="248.0" height="9" rx="4.5" fill="#ebeae7"/>
-<rect x="136.0" y="190" width="5.3" height="9" rx="4.5" fill="#e87ba4"/>
+<rect x="136.0" y="190" width="5.2" height="9" rx="4.5" fill="#e87ba4"/>
 <text x="436.0" y="199.0" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="12" font-weight="400" fill="#52514e" text-anchor="end">2.1%</text>
 <text x="24.0" y="227.0" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="12" font-weight="400" fill="#0b0b0b" text-anchor="start">C#</text>
 <rect x="136.0" y="218" width="248.0" height="9" rx="4.5" fill="#ebeae7"/>
 <rect x="136.0" y="218" width="5.0" height="9" rx="4.5" fill="#008300"/>
-<text x="436.0" y="227.0" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="12" font-weight="400" fill="#52514e" text-anchor="end">0.6%</text>
+<text x="436.0" y="227.0" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="12" font-weight="400" fill="#52514e" text-anchor="end">0.5%</text>
 <text x="24.0" y="255.0" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="12" font-weight="400" fill="#0b0b0b" text-anchor="start">Assembly</text>
 <rect x="136.0" y="246" width="248.0" height="9" rx="4.5" fill="#ebeae7"/>
 <rect x="136.0" y="246" width="5.0" height="9" rx="4.5" fill="#6250d6"/>
-<text x="436.0" y="255.0" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="12" font-weight="400" fill="#52514e" text-anchor="end">0.4%</text>
+<text x="436.0" y="255.0" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="12" font-weight="400" fill="#52514e" text-anchor="end">0.3%</text>
 <text x="24.0" y="283.0" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="12" font-weight="400" fill="#0b0b0b" text-anchor="start">Other</text>
 <rect x="136.0" y="274" width="248.0" height="9" rx="4.5" fill="#ebeae7"/>
 <rect x="136.0" y="274" width="5.0" height="9" rx="4.5" fill="#8a8982"/>

@@ -1,23 +1,23 @@
 {
-  "generated_at": "2026-11-12",
+  "generated_at": "2026-11-13",
   "user": {
     "login": "Viton4ik",
     "name": "Vict0r",
     "followers": 4
   },
   "totals": {
-    "public_repos": 41,
+    "public_repos": 42,
     "stars": 3,
     "forks": 0,
     "followers": 4,
     "languages": 10,
-    "years": 4.219028062970568,
-    "repos_counted_for_languages": 41,
+    "years": 4.2217659137577,
+    "repos_counted_for_languages": 42,
     "downloads": 1,
     "release_assets": 1
   },
   "language_bytes": {
-    "Python": 1117226,
+    "Python": 1174167,
     "JavaScript": 2276612,
     "HTML": 651099,
     "Shell": 10458,
@@ -35,6 +35,15 @@
     "C#": 1
   },
   "recent": [
+    {
+      "name": "world_gdp_1960_2026",
+      "url": "https://github.com/Viton4ik/world_gdp_1960_2026",
+      "description": "Global Government Debt Race (1926 – Oct 2026) | Auto-Installer & Self-Cleaning MP4 Builder",
+      "language": "Python",
+      "stars": 0,
+      "pushed_at": "2026-11-13",
+      "homepage": "https://www.youtube.com/shorts/dxQgfOLYid0"
+    },
     {
       "name": "migration-desire-map",
       "url": "https://github.com/Viton4ik/migration-desire-map",

@@ -15,14 +15,14 @@ rest of my time goes to small engineering and automation tools.
 
 | Project | What it is | Language | Last push |
 | --- | --- | --- | --- |
+| [world_gdp_1960_2026](https://github.com/Viton4ik/world_gdp_1960_2026) | Global Government Debt Race (1926 – Oct 2026) \| Auto-Installer & Self-Cleaning MP4 Builder | Python | 2026-11-13 |
 | [migration-desire-map](https://github.com/Viton4ik/migration-desire-map) | An animated world-map video (9:43, 1920x1080, 30 fps) for an English-language YouTube cha… | Python | 2026-11-12 |
 | [FileDateChanger](https://github.com/Viton4ik/FileDateChanger) | Tiny portable Windows GUI tool to change file creation, modification and access dates and… | C# | 2026-11-11 |
 | [Technology-and-Space](https://github.com/Viton4ik/Technology-and-Space) | Space Race: Satellites & Spacecraft in Orbit (1957–2026) | Python | 2026-11-11 |
 | [wage-race-project](https://github.com/Viton4ik/wage-race-project) | Minimum Wage vs Average Wage in the EU, 2000-2025 | Python | 2026-11-09 |
 | [Tongues-of-the-World](https://github.com/Viton4ik/Tongues-of-the-World) | tongues_of_the_world | JavaScript | 2026-11-06 |
-| [global_gold_reserves_3d](https://github.com/Viton4ik/global_gold_reserves_3d) | Global Gold Reserves (1950 – Oct 2026) \| Smooth 3D Bar Chart Race Generator | Python | 2026-11-05 |
 
-<sub>Updated automatically on 2026-11-12.</sub>
+<sub>Updated automatically on 2026-11-13.</sub>
 
 <!-- RECENT:END -->
 

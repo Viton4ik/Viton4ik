@@ -1,23 +1,23 @@
 {
-  "generated_at": "2026-11-18",
+  "generated_at": "2026-11-19",
   "user": {
     "login": "Viton4ik",
     "name": "Vict0r",
     "followers": 4
   },
   "totals": {
-    "public_repos": 43,
+    "public_repos": 44,
     "stars": 3,
     "forks": 0,
     "followers": 4,
     "languages": 10,
-    "years": 4.2354551676933605,
-    "repos_counted_for_languages": 43,
-    "downloads": 2,
+    "years": 4.238193018480493,
+    "repos_counted_for_languages": 44,
+    "downloads": 3,
     "release_assets": 1
   },
   "language_bytes": {
-    "Python": 1218276,
+    "Python": 1249712,
     "JavaScript": 2276612,
     "HTML": 651099,
     "Shell": 10458,
@@ -29,12 +29,21 @@
     "TypeScript": 6758
   },
   "downloads_by_repo": {
-    "FileDateChanger": 2
+    "FileDateChanger": 3
   },
   "downloads_by_language": {
-    "C#": 2
+    "C#": 3
   },
   "recent": [
+    {
+      "name": "global_nuclear_power_1965_2026_shorts",
+      "url": "https://github.com/Viton4ik/global_nuclear_power_1965_2026_shorts",
+      "description": "Nuclear Power Race: Global Atomic Electricity Generation (1965 – Oct 2026)",
+      "language": "Python",
+      "stars": 0,
+      "pushed_at": "2026-11-18",
+      "homepage": "https://www.youtube.com/shorts/_3QZ5tWZiIk"
+    },
     {
       "name": "SOUND_proj",
       "url": "https://github.com/Viton4ik/SOUND_proj",

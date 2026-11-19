@@ -15,14 +15,14 @@ rest of my time goes to small engineering and automation tools.
 
 | Project | What it is | Language | Last push |
 | --- | --- | --- | --- |
+| [global_nuclear_power_1965_2026_shorts](https://github.com/Viton4ik/global_nuclear_power_1965_2026_shorts) | Nuclear Power Race: Global Atomic Electricity Generation (1965 – Oct 2026) | Python | 2026-11-18 |
 | [SOUND_proj](https://github.com/Viton4ik/SOUND_proj) | SOUND / A FIELD IN MOTION - animated version v03 | Python | 2026-11-17 |
 | [world_gdp_1960_2026](https://github.com/Viton4ik/world_gdp_1960_2026) | Global Government Debt Race (1926 – Oct 2026) \| Auto-Installer & Self-Cleaning MP4 Builder | Python | 2026-11-13 |
 | [migration-desire-map](https://github.com/Viton4ik/migration-desire-map) | An animated world-map video (9:43, 1920x1080, 30 fps) for an English-language YouTube cha… | Python | 2026-11-12 |
 | [FileDateChanger](https://github.com/Viton4ik/FileDateChanger) | Tiny portable Windows GUI tool to change file creation, modification and access dates and… | C# | 2026-11-11 |
 | [Technology-and-Space](https://github.com/Viton4ik/Technology-and-Space) | Space Race: Satellites & Spacecraft in Orbit (1957–2026) | Python | 2026-11-11 |
-| [wage-race-project](https://github.com/Viton4ik/wage-race-project) | Minimum Wage vs Average Wage in the EU, 2000-2025 | Python | 2026-11-09 |
 
-<sub>Updated automatically on 2026-11-18.</sub>
+<sub>Updated automatically on 2026-11-19.</sub>
 
 <!-- RECENT:END -->
 

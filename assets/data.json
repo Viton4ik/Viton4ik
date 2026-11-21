@@ -1,26 +1,26 @@
 {
-  "generated_at": "2026-11-20",
+  "generated_at": "2026-11-21",
   "user": {
     "login": "Viton4ik",
     "name": "Vict0r",
     "followers": 4
   },
   "totals": {
-    "public_repos": 45,
+    "public_repos": 46,
     "stars": 3,
     "forks": 0,
     "followers": 4,
     "languages": 10,
-    "years": 4.240930869267625,
-    "repos_counted_for_languages": 45,
+    "years": 4.243668720054757,
+    "repos_counted_for_languages": 46,
     "downloads": 3,
     "release_assets": 1
   },
   "language_bytes": {
+    "Python": 1354101,
+    "Shell": 16740,
     "JavaScript": 10104912,
-    "Python": 1291981,
     "CSS": 800224,
-    "Shell": 13929,
     "HTML": 651489,
     "C#": 27655,
     "Batchfile": 4143,
@@ -35,6 +35,15 @@
     "C#": 3
   },
   "recent": [
+    {
+      "name": "Gas_Storage_2010_2026_Project",
+      "url": "https://github.com/Viton4ik/Gas_Storage_2010_2026_Project",
+      "description": "Gas in storage: data and visual review proj",
+      "language": "Python",
+      "stars": 0,
+      "pushed_at": "2026-11-20",
+      "homepage": "https://www.youtube.com/shorts/zMofT5sN1cs"
+    },
     {
       "name": "Grand_Theft_Atlas_GTA_maps",
       "url": "https://github.com/Viton4ik/Grand_Theft_Atlas_GTA_maps",

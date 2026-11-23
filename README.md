@@ -22,7 +22,7 @@ rest of my time goes to small engineering and automation tools.
 | [world_gdp_1960_2026](https://github.com/Viton4ik/world_gdp_1960_2026) | Global Government Debt Race (1926 – Oct 2026) \| Auto-Installer & Self-Cleaning MP4 Builder | Python | 2026-11-13 |
 | [migration-desire-map](https://github.com/Viton4ik/migration-desire-map) | An animated world-map video (9:43, 1920x1080, 30 fps) for an English-language YouTube cha… | Python | 2026-11-12 |
 
-<sub>Updated automatically on 2026-11-22.</sub>
+<sub>Updated automatically on 2026-11-23.</sub>
 
 <!-- RECENT:END -->
 

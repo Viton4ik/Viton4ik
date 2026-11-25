@@ -15,14 +15,14 @@ rest of my time goes to small engineering and automation tools.
 
 | Project | What it is | Language | Last push |
 | --- | --- | --- | --- |
+| [global_oil_production_1950_2026](https://github.com/Viton4ik/global_oil_production_1950_2026) | Black Gold: Global Crude Oil Production (1950 – Oct 2026) \| Beveled 3D Bar Chart Race | Python | 2026-11-25 |
 | [Gas_Storage_2010_2026_Project](https://github.com/Viton4ik/Gas_Storage_2010_2026_Project) | Gas in storage: data and visual review proj | Python | 2026-11-20 |
 | [Grand_Theft_Atlas_GTA_maps](https://github.com/Viton4ik/Grand_Theft_Atlas_GTA_maps) | Motion documentary (EN) about the evolution of GTA maps. Own WebGL engine (Three.js), det… | JavaScript | 2026-11-19 |
 | [global_nuclear_power_1965_2026_shorts](https://github.com/Viton4ik/global_nuclear_power_1965_2026_shorts) | Nuclear Power Race: Global Atomic Electricity Generation (1965 – Oct 2026) | Python | 2026-11-18 |
 | [SOUND_proj](https://github.com/Viton4ik/SOUND_proj) | SOUND / A FIELD IN MOTION - animated version v03 | Python | 2026-11-17 |
 | [world_gdp_1960_2026](https://github.com/Viton4ik/world_gdp_1960_2026) | Global Government Debt Race (1926 – Oct 2026) \| Auto-Installer & Self-Cleaning MP4 Builder | Python | 2026-11-13 |
-| [migration-desire-map](https://github.com/Viton4ik/migration-desire-map) | An animated world-map video (9:43, 1920x1080, 30 fps) for an English-language YouTube cha… | Python | 2026-11-12 |
 
-<sub>Updated automatically on 2026-11-24.</sub>
+<sub>Updated automatically on 2026-11-25.</sub>
 
 <!-- RECENT:END -->
 

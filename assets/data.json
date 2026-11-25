@@ -1,23 +1,23 @@
 {
-  "generated_at": "2026-11-24",
+  "generated_at": "2026-11-25",
   "user": {
     "login": "Viton4ik",
     "name": "Vict0r",
     "followers": 4
   },
   "totals": {
-    "public_repos": 46,
+    "public_repos": 47,
     "stars": 3,
     "forks": 0,
     "followers": 4,
     "languages": 10,
-    "years": 4.254620123203286,
-    "repos_counted_for_languages": 46,
+    "years": 4.257357973990418,
+    "repos_counted_for_languages": 47,
     "downloads": 3,
     "release_assets": 1
   },
   "language_bytes": {
-    "Python": 1354101,
+    "Python": 1383869,
     "Shell": 16740,
     "JavaScript": 10104912,
     "CSS": 800224,
@@ -35,6 +35,15 @@
     "C#": 3
   },
   "recent": [
+    {
+      "name": "global_oil_production_1950_2026",
+      "url": "https://github.com/Viton4ik/global_oil_production_1950_2026",
+      "description": "Black Gold: Global Crude Oil Production (1950 – Oct 2026) | Beveled 3D Bar Chart Race",
+      "language": "Python",
+      "stars": 0,
+      "pushed_at": "2026-11-25",
+      "homepage": "https://www.youtube.com/shorts/SoC-tit72oc"
+    },
     {
       "name": "Gas_Storage_2010_2026_Project",
       "url": "https://github.com/Viton4ik/Gas_Storage_2010_2026_Project",
